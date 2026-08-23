@@ -1,0 +1,9 @@
+# Godot 4 generated data
+.godot/
+
+# Local logs and OS metadata
+*.log
+.DS_Store
+
+# Temporary validation files
+work/

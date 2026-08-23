@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource path="res://scripts/chicken_mama.gd" type="Script" id="1"]
+[ext_resource path="res://scenes/EggProjectile.tscn" type="PackedScene" id="2"]
+
+[node name="ChickenMama" type="Node2D"]
+script = ExtResource("1")
+egg_scene = ExtResource("2")
+attack_interval = 0.35

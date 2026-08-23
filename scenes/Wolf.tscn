@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://scripts/wolf.gd" type="Script" id="1"]
+
+[node name="Wolf" type="Node2D"]
+script = ExtResource("1")
+max_hp = 2
+far_speed = 105.0
+near_speed = 190.0
